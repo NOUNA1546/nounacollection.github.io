@@ -1,9 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Mon Site Web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nouna Collection</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+/* HEADER */
+header {
+  background: black;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid gold;
+}
+
+header h1 {
+  color: gold;
+  margin: 0;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h2 {
+  font-size: 28px;
+}
+
+.hero p {
+  color: #ccc;
+}
+
+/* PRODUCTS */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background: #1a1a1a;
+  border-radius: 10px;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product h3 {
+  margin: 10px 0 5px;
+}
+
+.price {
+  color: gold;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: gold;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid gold;
+  margin-top: 20px;
+  color: #aaa;
+}
+</style>
+
 </head>
+
 <body>
+
+<header>
+  <h1>Nouna Collection</h1>
+</header>
+
+<section class="hero">
+  <h2>Les meilleurs accessoires pour vous ✨</h2>
+  <p>Montres, bijoux et élégance au meilleur prix</p>
+</section>
+
+<section class="products">
+
+  <!-- PRODUCT 1 -->
+  <div class="product">
+    <img src="watch.jpg">
+    <h3>Montre Élégante</h3>
+    <p class="price">70 DH</p>
+    <a href="https://wa.me/212XXXXXXXXX">
+      <button>Commander</button>
+    </a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product">
+    <img src="bracelet.jpg">
+    <h3>Bracelet Luxe</h3>
+    <p class="price">50 DH</p>
+    <a href="https://wa.me/212XXXXXXXXX">
+      <button>Commander</button>
+    </a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product">
+    <img src="ring.jpg">
+    <h3>Bague Élégante</h3>
+    <p class="price">40 DH</p>
+    <a href="https://wa.me/212693458402>
+      <button>Commander</button>
+    </a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Nouna Collection - Tous droits réservés
+</footer>
+
+</body>
+</html>
     <h1>Marhaban! Bienvenue sur mon site web.</h1>
 
     <h2>مرحباً بكم ف Nouna Collection</h2>
